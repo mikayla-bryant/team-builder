@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import MemberForm from './MemberForm';
 import Member from './Member';
-import ReactDOM from 'react-dom';
 export default function Form() {
   const [teamMember, setNewTeamMember] = useState([
     {

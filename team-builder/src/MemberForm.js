@@ -19,7 +19,7 @@ const MemberForm = (props) => {
     console.log('submitting!');
     event.preventDefault();
     props.addNewTeamMember(member);
-    setMember({ name: '', body: '', role: '' });
+    setMember({ name: '', email: '', role: '' });
   };
   return (
     <form onSubmit={submitForm}>
